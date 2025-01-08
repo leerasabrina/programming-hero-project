@@ -1,0 +1,86 @@
+
+ .open-sans-normal{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} 
+
+ *{
+    padding: 0;
+} 
+.nav-title{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+
+}
+span{
+    color:rgb(253, 110, 10);
+}
+.ash{
+    color: rgb(71, 71, 71);
+}
+.orange{
+    color:rgb(253, 110, 10);
+}
+.Button{
+    background-color:rgb(253, 110, 10);
+    border: none ;
+    border-radius: 2px;
+    color: rgb(255, 248, 243);
+    padding: 10px;
+}
+.white{
+    background-color: rgb(255, 248, 243) ;
+    color:rgb(253, 110, 10) ;
+    /* border: solid; */
+    /* border-radius:3px ; */
+    /* border-color:rgb(253, 110, 10) ; */
+    border: 1px solid rgb(253, 110, 10);
+}
+ ul li a{
+    text-decoration: none;
+    margin-right:50px;
+}
+ul li{
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 250px;
+    
+}
+ .art{
+    width:380px ;
+    height: 300px;
+    padding: 100px 200px 20px 50px;
+   
+ }
+.image{
+    /* margin:10px 0 50px 20px; */
+   padding-bottom: 0px;
+   padding-right: 20px;
+  
+   
+}
+header{
+    background-image: url('images/developer.png'),url('images/header_bg.png');
+    background-position:top left,bottom right; 
+    background-repeat:no-repeat;
+    /* background-size: cover; */
+     /* height:800px ;  */
+}
